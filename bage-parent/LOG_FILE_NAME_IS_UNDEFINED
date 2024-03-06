@@ -1,0 +1,92 @@
+2024-03-06 19:40:09.944 [main] INFO  com.bage.FinanceAdminApiApplication - Starting FinanceAdminApiApplication using Java 1.8.0_321 on maomao with PID 2760 (C:\Users\Administrator\Desktop\Sass-server\bage-finance-admin-api\target\classes started by Administrator in C:\Users\Administrator\Desktop\Sass-server\bage-parent)
+2024-03-06 19:40:09.949 [main] DEBUG com.bage.FinanceAdminApiApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+2024-03-06 19:40:09.952 [main] INFO  com.bage.FinanceAdminApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-06 19:40:13.558 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bage]' package. Please check your configuration.
+2024-03-06 19:40:14.818 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-06 19:40:14.819 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-03-06 19:40:15.209 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-06 19:40:16.540 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine suitable jdbc url
+2024-03-06 19:40:16.550 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-03-06 19:40:16.642 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine suitable jdbc url
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-03-06 19:43:07.316 [main] INFO  com.bage.FinanceAdminApiApplication - Starting FinanceAdminApiApplication using Java 1.8.0_321 on maomao with PID 3740 (C:\Users\Administrator\Desktop\Sass-server\bage-finance-admin-api\target\classes started by Administrator in C:\Users\Administrator\Desktop\Sass-server\bage-parent)
+2024-03-06 19:43:07.321 [main] DEBUG com.bage.FinanceAdminApiApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+2024-03-06 19:43:07.322 [main] INFO  com.bage.FinanceAdminApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-06 19:43:09.815 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bage]' package. Please check your configuration.
+2024-03-06 19:43:10.954 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-06 19:43:10.955 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-03-06 19:43:11.275 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-06 19:43:12.407 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine suitable jdbc url
+2024-03-06 19:43:12.415 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-03-06 19:43:12.489 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine suitable jdbc url
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-03-06 19:43:45.411 [main] INFO  com.bage.FinanceAdminApiApplication - Starting FinanceAdminApiApplication using Java 1.8.0_321 on maomao with PID 3116 (C:\Users\Administrator\Desktop\Sass-server\bage-finance-admin-api\target\classes started by Administrator in C:\Users\Administrator\Desktop\Sass-server\bage-parent)
+2024-03-06 19:43:45.418 [main] DEBUG com.bage.FinanceAdminApiApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+2024-03-06 19:43:45.420 [main] INFO  com.bage.FinanceAdminApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-06 19:43:47.757 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bage]' package. Please check your configuration.
+2024-03-06 19:43:48.704 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-06 19:43:48.705 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-03-06 19:43:48.967 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-06 19:43:50.102 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine suitable jdbc url
+2024-03-06 19:43:50.113 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-03-06 19:43:50.196 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine suitable jdbc url
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-03-06 19:45:49.883 [main] INFO  com.bage.FinanceAdminApiApplication - Starting FinanceAdminApiApplication using Java 1.8.0_321 on maomao with PID 21108 (C:\Users\Administrator\Desktop\Sass-server\bage-finance-admin-api\target\classes started by Administrator in C:\Users\Administrator\Desktop\Sass-server\bage-parent)
+2024-03-06 19:45:49.886 [main] DEBUG com.bage.FinanceAdminApiApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+2024-03-06 19:45:49.887 [main] INFO  com.bage.FinanceAdminApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-06 19:45:51.956 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bage]' package. Please check your configuration.
+2024-03-06 19:45:52.931 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-06 19:45:52.932 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-03-06 19:45:53.197 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-06 19:45:55.978 [main] INFO  com.bage.FinanceAdminApiApplication - Started FinanceAdminApiApplication in 7.203 seconds (JVM running for 8.687)
